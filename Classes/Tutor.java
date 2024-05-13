@@ -2,7 +2,7 @@ package Classes;
 
 import Interfaces.IEmployee;
 
-public class Tutor extends Student implements IEmployee{
+public class Tutor extends Student implements IEmployee {
     private final float salary;
 
     public Tutor(String name, String subject, float salary) {
