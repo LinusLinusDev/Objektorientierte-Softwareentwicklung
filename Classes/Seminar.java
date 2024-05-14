@@ -4,7 +4,6 @@ import Interfaces.IStudent;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Seminar<T extends IStudent> {
     private String name;
@@ -26,7 +25,13 @@ public class Seminar<T extends IStudent> {
     }
 
     public List<T> getParticipantsFromStudyProgram(String subject) {
-        return participants.stream().filter(p -> p.getSubject().equals(subject)).collect(Collectors.toList());
+        List<T> filteredParticipants = new ArrayList<>();
+        for (T p : participants) {
+            if (p.getSubject().equals(subject)) {
+                filteredParticipants.add(p);
+            }
+        }
+        return filteredParticipants;
     }
 
     public static void main(String[] args) {
