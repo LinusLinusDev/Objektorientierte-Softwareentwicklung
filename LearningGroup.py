@@ -6,11 +6,11 @@ class LearningGroup:
         return str([str(student) for student in self.studentList])
 
     def __add__(self, other):
-        if isinstance(other, Student):
+        if isinstance(other, Student):  # group + student
             new_group = LearningGroup()
             new_group.studentList = self.studentList + [other]
             return new_group
-        if isinstance(other, LearningGroup):
+        if isinstance(other, LearningGroup):  # group + group
             new_group = LearningGroup()
             new_group.studentList = self.studentList + other.studentList
             return new_group
@@ -26,11 +26,11 @@ class Student:
         return self.name + ' ' + str(self.matNr)
 
     def __add__(self, other):
-        if isinstance(other, Student):
+        if isinstance(other, Student):  # student + student
             new_group = LearningGroup()
             new_group.studentList = [self, other]
             return new_group
-        elif isinstance(other, LearningGroup):  # Implemented in case: student + group
+        elif isinstance(other, LearningGroup):  # student + group
             return other + self
         return NotImplemented
 
