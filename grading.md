@@ -12,3 +12,12 @@
 - Exercise 1: There should be separate roles for head of the examination board, and head of the department, -1.0 point.
 - Exercise 2: The interfaces should use `extends`, see bullet point 3 in exercise, -0.25 points.
 - Exercise 3: Why are the fields doubled in `oose` on the heap? -0.25 points.
+
+## HW2
+
+| Exercise  | Points    |
+|-----------|-----------|
+| 1         | 4/4       |
+| 2         | 4/4       |
+| 3         | 2/2       |
+| **Total** | 10.0/10.0 |
