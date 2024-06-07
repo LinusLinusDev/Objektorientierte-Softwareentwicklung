@@ -2,8 +2,6 @@ package HW3;
 
 import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class ThesisGradingTest {
     ThesisGrading grading;
 

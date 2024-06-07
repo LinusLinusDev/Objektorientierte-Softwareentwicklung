@@ -1,3 +1,22 @@
 ## HW3 Exercise 2
 
-### 
+- Calendar
+  - Get Events: Provides access to view all regular and irregular events
+- Grades
+  - Manage Grades: Allows to add/update grades
+  - Get Grades: Provides access to view grades
+- Material
+  - Manage Materials: Allows to add/update materials
+  - Get Materials: Provides access to view/download materials
+- Exams
+  - Manage Exams: Allows to add/update exams
+  - Get Exams: Provides access to view exams infos
+- Users
+  - Auth User: Authenticates and authorizes users
+  - Get User Data: Provides access to user profiles and related data
+- Course
+  - Manage Course: Allows to add/update courses
+  - Get Course: Provides access to view courses infos
+- RoomBooking
+  - Manage RoomBooking: Enables booking and managing of rooms
+  - Get Booking Data: Provides access to view room bookings data
