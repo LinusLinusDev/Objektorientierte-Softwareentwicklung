@@ -21,3 +21,16 @@
 | 2         | 4/4       |
 | 3         | 2/2       |
 | **Total** | 10.0/10.0 |
+
+## HW3
+
+| Exercise  | Points    |
+|-----------|-----------|
+| 1         | 3.25/4    |
+| 2         | 2/2       |
+| 3         | 0/4       |
+| **Total** | 5.25/10.0 |
+
+- Exercise 1: Requirements need more clarifications, -0.5p.
+- Exercise 1: Your last requirement is actually a process requirement, -0.25p.
+- Exercise 3: Not completed, -4p.
